@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<style>
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            padding: 40px 20px;
+            color: #333;
+        }
+
+        /* Container & Header styling */
+        .marksheet-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 20px;
+        }
+
+        .header h1 {
+            color: #1e3a8a;
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+
+        .header p {
+            color: #6b7280;
+            font-size: 14px;
+        }
+
+        /* Student Metadata Layout */
+        .student-info {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 30px;
+            background: #f8fafc;
+            padding: 15px;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+
+        .student-info div span {
+            font-weight: bold;
+            color: #4b5563;
+        }
+
+        /* Core Marksheet Table CSS */
+        .marksheet-table {
+            width: 100%;
+            border-collapse: collapse; /* Merges adjacent borders into a unified grid lines */
+            margin-bottom: 25px;
+            font-size: 15px;
+            text-align: left;
+        }
+
+        .marksheet-table thead tr {
+            background-color: #1e3a8a; /* Dark Navy Blue Header */
+            color: #ffffff;
+        }
+
+        .marksheet-table th, 
+        .marksheet-table td {
+            padding: 12px 15px;
+            border: 1px solid #e2e8f0; /* Crisp grid borders */
+        }
+
+        /* Zebra Striping for better readability */
+        .marksheet-table tbody tr:nth-of-type(even) {
+            background-color: #f8fafc;
+        }
+
+        /* Highlight the Footer/Total row */
+        .marksheet-table tfoot tr {
+            font-weight: bold;
+            background-color: #e2e8f0;
+            color: #0f172a;
+            border-top: 2px solid #cbd5e1;
+        }
+
+        /* Custom Status Pill Badges */
+        .status-badge {
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .status-badge.pass {
+            background-color: #dcfce7;
+            color: #15803d;
+        }
+
+        .status-badge.fail {
+            background-color: #fee2e2;
+            color: #b91c1c;
+        }
+
+        /* Align numeric values to the right for financial/score clarity */
+        .text-right {
+            text-align: right;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+              .summary-box {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        background-color: #eaf2f8;
+        border-radius: 6px;
+      }
+
+      .result-status {
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .pass-text {
+        color: #27ae60;
+      }
+
+    </style>
+</head>
+<body>
+
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
