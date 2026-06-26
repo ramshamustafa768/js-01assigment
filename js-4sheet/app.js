@@ -27,15 +27,15 @@
       //Qusetion 3
 
 
-//       console.log("Rules for naming JS variables");
+     console.log("Rules for naming JS variables");
 
-// console.log("Variable names can only contain letters, numbers, $ and _. For example: $my_1stVariable");
+ console.log("Variable names can only contain letters, numbers, $ and _. For example: $my_1stVariable");
 
-// console.log("Variables must begin with a letter, $ or _. For example: $name, _name or name");
+ console.log("Variables must begin with a letter, $ or _. For example: $name, _name or name");
 
-// console.log("Variable names are case sensitive");
+console.log("Variable names are case sensitive");
 
-// console.log("Variable names should not be JS keywords");
+ console.log("Variable names should not be JS keywords");
 
 
 

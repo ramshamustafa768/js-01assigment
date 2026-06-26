@@ -19,8 +19,8 @@
   
             // question number 5 //
 
-// alert("Hello...i can run js through my web browers console");
+alert("Hello...i can run js through my web browers console");
 
-// console.log("Hello...i can run js through my web browers console");
+ console.log("Hello...i can run js through my web browers console");
 
 

@@ -15,10 +15,10 @@
 
 //Question 4
 
-// var visitorname = "Imran khan";
-// var product = "T-shirt";
-// var quantity = 5;
+ var visitorname = "Imran khan";
+ var product = "T-shirt";
+var quantity = 5;
 
-// document.write(visitorname + " ordered " +  quantity   +  product + " on XYZ Clothing store ");
+ document.write(visitorname + " ordered " +  quantity   +  product + " on XYZ Clothing store ");
 
                // End
